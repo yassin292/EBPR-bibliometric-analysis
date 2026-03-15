@@ -1,9 +1,4 @@
-# EBPR-bibliometric-analysis
-Bibliometric analysis of enhanced biological phosphorus removal (EBPR) research (2000–2026)
-All analyses were conducted in R using the bibliometrix package.
-Scripts in the `scripts/` folder reproduce the full workflow.
 # EBPR Bibliometric Analysis
-
 This repository contains the data, scripts, and figures used to perform a bibliometric analysis of research on **Enhanced Biological Phosphorus Removal (EBPR)** from **2000 to 2026**.
 
 The analysis explores the evolution of EBPR research using bibliometric methods implemented in **R** with the **bibliometrix** package.

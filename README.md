@@ -33,7 +33,30 @@ Because of database licensing restrictions, the raw bibliographic dataset may no
 
 ## Repository Structure
 
----
+---EBPR-bibliometric-analysis
+│
+├── data
+│ ├── scopus_export.csv
+│ ├── raw_dataset.rds
+│ └── clean_dataset.rds
+│
+├── scripts
+│ ├── 01_data_import.R
+│ ├── 02_keyword_cleaning.R
+│ ├── 03_publication_trend.R
+│ ├── 04_keyword_network.R
+│ ├── 05_thematic_map.R
+│ ├── 06_thematic_evolution.R
+│ └── 07_country_collaboration.R
+│
+├── figures
+│ ├── annual_production.tiff
+│ ├── keyword_network.tiff
+│ ├── thematic_map.tiff
+│ ├── thematic_evolution.tiff
+│ └── country_collaboration.tiff
+│
+└── README.md
 
 ## Methods
 
@@ -71,7 +94,8 @@ The bibliometric analysis highlights:
 
 ## Software
 
-All analyses were performed using:
+All analyses were performed using:R version ≥ 4.2
+bibliometrix package
 
 ---
 

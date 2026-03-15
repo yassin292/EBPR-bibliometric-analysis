@@ -3,6 +3,7 @@ This repository contains the data, scripts, and figures used to perform a biblio
 
 The analysis explores the evolution of EBPR research using bibliometric methods implemented in **R** with the **bibliometrix** package.
 
+
 ---
 
 ## Objectives
@@ -23,36 +24,15 @@ The dataset was obtained from **Scopus** using a query related to EBPR and waste
 The exported file was processed using the `bibliometrix` R package.
 
 Because of database licensing restrictions, the raw bibliographic dataset may not be redistributed publicly.
+The raw bibliographic dataset was exported from Scopus and may not be redistributed due to database licensing restrictions. The analysis scripts allow full reproducibility when the dataset is available.
 
 ---
 
-## Repository Structure
-
----EBPR-bibliometric-analysis
-│
-├── data
-│ ├── scopus_export.csv
-│ ├── raw_dataset.rds
-│ └── clean_dataset.rds
-│
-├── scripts
-│ ├── 01_data_import.R
-│ ├── 02_keyword_cleaning.R
-│ ├── 03_publication_trend.R
-│ ├── 04_keyword_network.R
-│ ├── 05_thematic_map.R
-│ ├── 06_thematic_evolution.R
-│ └── 07_country_collaboration.R
-│
-├── figures
-│ ├── annual_production.tiff
-│ ├── keyword_network.tiff
-│ ├── thematic_map.tiff
-│ ├── thematic_evolution.tiff
-│ └── country_collaboration.tiff
-│
-└── README.md
-
+## Repository Structure 
+- **data/** – Raw and processed bibliographic datasets.
+- **scripts/** – R scripts used to perform the bibliometric analysis.
+- **figures/** – Figures generated from the analysis.
+- **README.md** – Documentation explaining the repository and workflow.
 ## Methods
 
 The bibliometric analysis was conducted in **R** using the following packages:
@@ -89,7 +69,8 @@ The bibliometric analysis highlights:
 
 ## Software
 
-All analyses were performed using:R version ≥ 4.2
+All analyses were performed using:
+R version ≥ 4.2
 bibliometrix package
 
 ---
